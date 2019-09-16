@@ -1,8 +1,9 @@
 # big-data-architecture-practica
 
 Los materiales utilizados se encuentran en el siguiente link [https://drive.google.com/open?id=1Zo9X4UgySbc1dv8Ng9T6FkxanCr8zbDd]
-Además de encontrarse en el repositorio de gitlab.
 
+El desarrollo de este readme se encuentra de forma continuada (sin tener que buscar link por link) en el fichero README:PRACTICA DEL DRIVE ANTERIOR [https://drive.google.com/open?id=1o3noqbillkvaBELtf4MlGsOkUzRWCZWf5RzPpmWuIP8]
+Además de encontrarse en el repositorio de gitlab.
 Práctica.
 
 # 1. Selección del dataset
@@ -51,6 +52,14 @@ El último paso sería utilizar el fichero envío de correos de estos pdfs a los
 Utilización del fichero de envío de correos [https://drive.google.com/open?id=1gT3SKV6b11OY9JHjxwfqPVIk2qhOwSt3L_xadlufI-c]
 (para ver el código empleado dirigirse a Herramientas: Editor de secuencia de comandos)
 El funcionamiento de la herramienta se puede ver en: [https://drive.google.com/open?id=1W7IEiaIDFJUmaWyAYIESwW1zF2ZT8K9O17J6-UlORLc]
+
+
+Con todo esto se terminaría nuestra aplicación.
+
+Resumen: Se ha descargado dos dataset se han metido en un cluster, el resultado del wordcount se ha graficado en R y se ha enviado un correo con el pdf de los resultados a los distintos usuarios
+
+Para ver el desarrollo de una manera continuada [https://drive.google.com/open?id=1o3noqbillkvaBELtf4MlGsOkUzRWCZWf5RzPpmWuIP8]
+Para ver el drive donde se encuentran todos los documentos [https://drive.google.com/open?id=1o3noqbillkvaBELtf4MlGsOkUzRWCZWf5RzPpmWuIP8]
 
 
 

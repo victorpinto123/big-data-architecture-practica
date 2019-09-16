@@ -39,8 +39,19 @@ Subir pdf a una carpeta de drive y copiar enlace para compartir en la herramient
 El primer paso consiste en realizar la limpieza del fichero airbnb.csv en Talend Preparation.
 El segundo paso consiste en scrapear  la página milanuncios, filtrando por pisos de la comunida de Madrid  [Podemos encontrarlo en el collaboratory Scrawling mil anuncios: https://colab.research.google.com/drive/1FavHWZJXa9SJWPZN6OnhwTKHeym-2QWf]
 
-El tercer paso y más laborioso, consiste en montar un cluster, subir los archivos a Google storage y realizar los wordcount: [El desarrollo, aunque aquí también lo ponga,se puede ver aqui más comodamente (En el drive: Desarrollo de PROCESO CLUSTER EN LA NUBE) 
+El tercer paso y más laborioso, consiste en montar un cluster, subir los archivos a Google storage y realizar los wordcount: [El desarrollo,se puede ver aqui más comodamente (https://drive.google.com/open?id=1B0QOev_AwM_m4bqbeoP3pniuynKeHDmsKxa3-pZbnVA) 
                   
+
+El output resultante es el siguiente :https://drive.google.com/open?id=1RxTvLLhII-qpQBGMhXvRqI_5GKFKCMyT y https://drive.google.com/open?id=1n2p1nJ_gtcnEAzMLjD9mnOon-MZIDTa0
+
+El cuarto paso consiste en introducir los datos en R , crear un data-frame de palabras-frecuencias y realizar un gráfico de palabras. Debido a que los archivos descargados están separados y no tienen extensión, no se ha podido realizar correctamente esta parte ni la siguiente con los datos de airbnb. Pero se ha seguido con datos de ejemplo. [https://drive.google.com/open?id=1ETLDkDwAxWQbLDLGwCyPtDi9i_k1dPNb] y genera el siguiente pdf [https://drive.google.com/open?id=1duWU-jGAwAO-bdKWHdGR6vMsa1ph6FrE]
+
+El último paso sería utilizar el fichero envío de correos de estos pdfs a los usuarios para que puedan implementar estas palabras en sus anuncios (por ejemplo wifi es la más usada en nuestro ejemplo) o para que los distintos departamentos de marketing y publicidad comparen las palabras utilizadas en páginas especializadas vs en no especializadas.
+
+Utilización del fichero de envío de correos [https://drive.google.com/open?id=1gT3SKV6b11OY9JHjxwfqPVIk2qhOwSt3L_xadlufI-c]
+(para ver el código empleado dirigirse a Herramientas: Editor de secuencia de comandos)
+El funcionamiento de la herramienta se puede ver en: [https://drive.google.com/open?id=1W7IEiaIDFJUmaWyAYIESwW1zF2ZT8K9O17J6-UlORLc]
+
 
 
 
